@@ -1,0 +1,6 @@
+opencv:
+  image: kavolorn/opencv
+  # image: chilijung/docker-opencv
+  volumes:
+    - ./:/app
+  working_dir: /app
